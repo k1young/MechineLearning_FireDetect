@@ -14,6 +14,7 @@ BaseModel과 MainModel은 모두 Colab에서 작성 및 구동하였음.
 [Use Others]
 1. 위의 링크를 통해 데이터셋을 다운로드.
 2. 다음의 코드를 지움.
+
 from google.colab import drive
 
 drive.mount('/content/drive')
@@ -21,5 +22,6 @@ drive.mount('/content/drive')
 !cp /content/drive/MyDrive/archive.zip ./
 
 !unzip archive.zip
-4. 데이터셋을 압축해제.
-5. datasetpath = "fire_dataset" 의 코드에서 "fire_dataset"을 데이터셋이 위치한 경로로 수정.
+
+3. 데이터셋을 압축해제.
+4. datasetpath = "fire_dataset" 의 코드에서 "fire_dataset"을 데이터셋이 위치한 경로로 수정.
